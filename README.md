@@ -1,24 +1,25 @@
-Podcast Feed Generator
+# Podcast Feed Generator
 
-A simple GitHub Action that generates a podcast RSS (XML) feed from a YAML file using Python.
+A lightweight GitHub Action that generates a podcast RSS (XML) feed from a YAML file using Python.
 
-What it does
+---
 
-Reads podcast data from a YAML file
+### Features
+- YAML-based podcast configuration
+- Automatically generates RSS XML
+- Runs inside GitHub Actions
+- Suitable for GitHub Pages hosting
 
-Converts it into an RSS XML podcast feed
+---
 
-Designed to run inside GitHub Actions
+### Tech Stack
+- Python
+- YAML
+- XML (RSS)
+- GitHub Actions
+- Docker
 
-Useful for hosting podcasts on GitHub Pages
+---
 
-Files in this project
-Dockerfile      - Docker image for the action
-action.yml     - GitHub Action configuration
-entrypoint.sh  - Entry script for the action
-feed.py        - Converts YAML to RSS XML
-LICENSE        - MIT License
-
-License
-
+### License
 MIT License
